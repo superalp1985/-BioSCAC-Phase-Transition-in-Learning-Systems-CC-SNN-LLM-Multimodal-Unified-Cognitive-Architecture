@@ -1,0 +1,90 @@
+{
+  "config": {
+    "N": 250,
+    "sqrtN": 15,
+    "Cvals": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "model": "qwen2.5:3b-instruct-q4_K_M"
+  },
+  "data": [
+    {
+      "C": 4,
+      "regime": "sub",
+      "acc_A": 0.95,
+      "acc_B": 0.6,
+      "acc_C": 1.0,
+      "K": 2,
+      "scac": 3,
+      "avg_bucket_cats": 4.0,
+      "fail_A": 0,
+      "fail_C": 0
+    },
+    {
+      "C": 8,
+      "regime": "sub",
+      "acc_A": 0.525,
+      "acc_B": 0.575,
+      "acc_C": 0.925,
+      "K": 4,
+      "scac": 26,
+      "avg_bucket_cats": 4.666666666666667,
+      "fail_A": 0,
+      "fail_C": 0
+    },
+    {
+      "C": 16,
+      "regime": "super",
+      "acc_A": 0.125,
+      "acc_B": 0.075,
+      "acc_C": 0.8,
+      "K": 3,
+      "scac": 36,
+      "avg_bucket_cats": 6.666666666666667,
+      "fail_A": 0,
+      "fail_C": 0
+    },
+    {
+      "C": 32,
+      "regime": "super",
+      "acc_A": 0.05,
+      "acc_B": 0.125,
+      "acc_C": 0.65,
+      "K": 5,
+      "scac": 39,
+      "avg_bucket_cats": 9.75,
+      "fail_A": 0,
+      "fail_C": 0
+    },
+    {
+      "C": 64,
+      "regime": "super",
+      "acc_A": 0.0,
+      "acc_B": 0.1,
+      "acc_C": 0.775,
+      "K": 10,
+      "scac": 38,
+      "avg_bucket_cats": 21.0,
+      "fail_A": 2,
+      "fail_C": 0
+    },
+    {
+      "C": 128,
+      "regime": "super",
+      "acc_A": 0.0,
+      "acc_B": 0.025,
+      "acc_C": 0.4,
+      "K": 20,
+      "scac": 40,
+      "avg_bucket_cats": 27.0,
+      "fail_A": 0,
+      "fail_C": 0
+    }
+  ],
+  "timestamp": "2026-03-30 21:24:46"
+}

@@ -1,0 +1,266 @@
+{
+  "C": 5,
+  "N": 94,
+  "K": 5,
+  "sqrtN": 9,
+  "cat_names": [
+    "认知",
+    "语言",
+    "运动",
+    "精细",
+    "发育"
+  ],
+  "llm_learn_curve": [
+    {
+      "n": 10,
+      "acc": 0.7
+    },
+    {
+      "n": 20,
+      "acc": 0.75
+    },
+    {
+      "n": 30,
+      "acc": 0.8
+    },
+    {
+      "n": 40,
+      "acc": 0.75
+    },
+    {
+      "n": 50,
+      "acc": 0.72
+    },
+    {
+      "n": 60,
+      "acc": 0.6833333333333333
+    }
+  ],
+  "llm_learn_avg_latency": 0.3890947103500366,
+  "acc_lut": 0.967741935483871,
+  "acc_llm": 0.7096774193548387,
+  "lat_lut_ms": 0.03294021852554813,
+  "lat_llm_ms": 350.86545636576994,
+  "llm_hallucinations": 0,
+  "llm_consistency": 1.0,
+  "lut_details": [
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 2,
+      "gt": 2,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 1,
+      "gt": 1,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 2,
+      "gt": 2,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 1,
+      "gt": 1,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 3,
+      "gt": 3,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 1,
+      "gt": 2,
+      "ok": false,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 3,
+      "gt": 3,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 2,
+      "gt": 2,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 2,
+      "gt": 2,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 3,
+      "gt": 3,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 3,
+      "gt": 3,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 2,
+      "gt": 2,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 1,
+      "gt": 1,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 4,
+      "gt": 4,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 0,
+      "gt": 0,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 3,
+      "gt": 3,
+      "ok": true,
+      "conf": 0.0
+    },
+    {
+      "bid": 0,
+      "pred": 2,
+      "gt": 2,
+      "ok": true,
+      "conf": 0.0
+    }
+  ],
+  "passed": true
+}

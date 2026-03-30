@@ -1,0 +1,31 @@
+{
+  "stage": 2,
+  "timestamp": "2026-03-30 22:59:18",
+  "vision": {
+    "modality": "视觉(8x8像素图)",
+    "C": 5,
+    "K": 5,
+    "N": 150,
+    "n_test": 30,
+    "acc_lut": 0.9666666666666667,
+    "acc_llm": 0.3,
+    "lat_lut_ms": 0.02658367156982422,
+    "lat_llm_ms": 371.05517387390137,
+    "buckets_used": 2,
+    "passed": true
+  },
+  "audio": {
+    "modality": "听觉(合成声音)",
+    "C": 5,
+    "K": 5,
+    "N": 150,
+    "n_test": 30,
+    "acc_lut": 0.8666666666666667,
+    "acc_llm": 0.23333333333333334,
+    "lat_lut_ms": 0.11192957560221353,
+    "lat_llm_ms": 367.61942704518634,
+    "buckets_used": 1,
+    "passed": true
+  },
+  "all_pass": true
+}

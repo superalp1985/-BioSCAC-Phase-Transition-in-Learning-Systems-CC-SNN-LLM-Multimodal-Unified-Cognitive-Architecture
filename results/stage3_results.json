@@ -1,0 +1,13 @@
+{
+  "stage": 3,
+  "timestamp": "2026-03-30 23:05:44",
+  "acc_multi": 1.0,
+  "acc_vis": 1.0,
+  "acc_aud": 1.0,
+  "acc_llm": 0.2,
+  "lat_multi": 0.031638145446777344,
+  "lat_llm": 403.1746069590251,
+  "multi_wins": true,
+  "beats_llm": true,
+  "all_pass": true
+}
